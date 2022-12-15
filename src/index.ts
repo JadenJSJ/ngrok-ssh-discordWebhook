@@ -52,14 +52,14 @@ for (var i = 0; i < tunnel.tunnels.length; i = i + 1) {
 }
 
 const embed = new webhook.MessageBuilder()
-        .setName("Ngrok")
+        .setName("ngrok")
         .setAvatar('https://cdn.discordapp.com/avatars/1052846223813529640/7a22209940c32e6c54b892de90fc0c5c.png?size=4096')
         // .setTitle('')
-        .setAuthor('Ngrok Tunnel Started', 'https://cdn.discordapp.com/avatars/1052846223813529640/7a22209940c32e6c54b892de90fc0c5c.png?size=4096')
+        .setAuthor('ngrok Tunnel Started', 'https://cdn.discordapp.com/avatars/1052846223813529640/7a22209940c32e6c54b892de90fc0c5c.png?size=4096')
         // .setDescription("Tunnel was started")
         // .addField('Tunnel ' + i, tunnel.tunnels[i].public_url, true)
         .setColor('#031D8E')
-        .setFooter('Ngrok Tunnel Notification', 'https://avatars.githubusercontent.com/u/44781632')
+        .setFooter('ngrok Tunnel Notification', 'https://avatars.githubusercontent.com/u/44781632')
         .setTime();
 
 for (let f = 0; f < i; f = f + 1) {
