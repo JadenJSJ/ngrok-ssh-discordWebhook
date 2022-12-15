@@ -8,8 +8,8 @@ Preview:
 ![Image preview](https://cdn.discordapp.com/attachments/1052466594133069836/1052861495664443393/image.png)
 
 
-##How to run
-###Setting things up
+## How to run
+### Setting things up
 1. Register for ngrok and get ngrok authtoken
    <details closed>
     <summary>Expand</summary>
