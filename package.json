@@ -1,0 +1,19 @@
+{
+  "name": "ngrok-ssh-discordwebhook",
+  "version": "1.0.0",
+  "description": "Start a ssh ngrok tunnel and send the domain & port to Discord using webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JadenJSJ/ngrok-ssh-discordWebhook.git"
+  },
+  "author": "JadenJSJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JadenJSJ/ngrok-ssh-discordWebhook/issues"
+  },
+  "homepage": "https://github.com/JadenJSJ/ngrok-ssh-discordWebhook"
+}
