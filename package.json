@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Start a ssh ngrok tunnel and send the domain & port to Discord using webhooks",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "test": "node index.ts"
+    "dev": "tsc && cd dist && node index.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,12 @@
   },
   "homepage": "https://github.com/JadenJSJ/ngrok-ssh-discordWebhook",
   "devDependencies": {
+    "@types/node": "^18.11.15",
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ngrok": "^4.3.3",
+    "webhook-discord": "^3.7.8"
   }
 }
