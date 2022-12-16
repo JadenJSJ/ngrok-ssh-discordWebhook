@@ -8,7 +8,7 @@ Preview:
 ![Image preview](https://cdn.discordapp.com/attachments/1052466594133069836/1052861495664443393/image.png)
 
 ### Plans
-- [] Automatically reconnect when network goes down
+- [ ] Automatically reconnect when network goes down
 
 
 ## How to run
