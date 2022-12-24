@@ -9,6 +9,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 dotenv.config({path:__dirname+'/../.env'})
 
+if (process.env.authtoken == undefined) {
+    console.log("Missing .env file, or the .env file is lacking a authToken")
+    process.exit(1)
+}
+
 // @ts-ignore
 const hook = new webhook.Webhook(process.env.discordWebhookUrl)
 
